@@ -191,7 +191,7 @@ body {
     height: 5px;
     background-color: orange;
     position: absolute;
-    top:17%;
+    top:25%;
   
 }
 
@@ -205,10 +205,10 @@ body {
     width:50%
 }
 .stats-text{
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     /* color: #233c7b; */
 }
 .stats-numbers{
-    font-size: 2.6rem;
+    font-size: 2rem;
     color: #233c7b;
 }
