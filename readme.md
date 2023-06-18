@@ -54,3 +54,7 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 This clone project was created as a learning exercise and is not affiliated with or endorsed by iNeuron.ai.
 
 Link: [iNeuron.ai Clone]()
+
+![iNeuron.ai Clone](/Assets/iNeuron_Clone.png)
+![iNeuron.ai Clone](/Assets/iNeuron_Clone-2.png)
+![iNeuron.ai Clone](/Assets/iNeuron_Clone-3.png)
