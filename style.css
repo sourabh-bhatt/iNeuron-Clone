@@ -202,13 +202,59 @@ body {
 }
 
 .stats-img{
-    width:50%
+    width:60%
 }
 .stats-text{
-    font-size: 1.5rem;
+    /* font-size: %; */
     /* color: #233c7b; */
 }
 .stats-numbers{
     font-size: 2rem;
     color: #233c7b;
 }
+
+/* Achievers Placed at */
+.achievers-compananies {
+    height: 500px;
+    border: 2px solid black;
+    background-color: #eef0f5;
+  }
+  
+  .heading {
+    color: #233c7b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 1.5rem;
+    font-size: 2rem;
+    line-height: 1;
+    font-weight: 600;
+  }
+  
+  .slider-companies {
+    overflow: hidden;
+  }
+  
+  .slider {
+    display: flex;
+    animation: slider 10s infinite linear;
+
+  }
+  
+  .slider img {
+    padding: 40px;
+    border: 2px solid black;
+    height: 40px;
+    width: 100%;
+  }
+
+  
+  @keyframes slider {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
