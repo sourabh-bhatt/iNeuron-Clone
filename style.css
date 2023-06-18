@@ -238,23 +238,43 @@ body {
   
   .slider {
     display: flex;
-    animation: slider 10s infinite linear;
+    animation: slider 20s infinite linear;
 
   }
   
   .slider img {
-    padding: 40px;
-    border: 2px solid black;
+    padding: 80px;
+    /* border: 2px solid black; */
     height: 40px;
     width: 100%;
   }
 
-  
   @keyframes slider {
     0% {
       transform: translateX(0);
     }
-    100% {
+    20% {
+      transform: translateX(0);
+    }
+    25% {
       transform: translateX(-100%);
+    }
+    45% {
+      transform: translateX(-100%);
+    }
+    50% {
+      transform: translateX(-200%);
+    }
+    70% {
+      transform: translateX(-200%);
+    }
+    75% {
+      transform: translateX(-300%);
+    }
+    95% {
+      transform: translateX(-300%);
+    }
+    100% {
+      transform: translateX(-400%);
     }
   }
